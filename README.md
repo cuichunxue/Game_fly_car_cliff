@@ -43,3 +43,7 @@ js/game.js          物理（道路・壁・空中）・入力・カメラ・進
 js/vendor/          three.js r147（MIT）
 JOURNEY.md          ジャーニーマップ設計書
 ```
+
+## ライセンス
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja)（表示・非営利・改変禁止）。
+同梱の three.js（`js/vendor/`）は MIT ライセンスで、上記の対象外です。詳細は [LICENSE](LICENSE) を参照。
