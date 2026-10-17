@@ -37,8 +37,8 @@ TR.World = (() => {
 
   /* ---------- skies (one per chapter + the sunrise finale) ---------- */
   const ZONES = [
-    { name: 'GOLDEN COAST', top: 0x2b5fa8, mid: 0x7fb2de, hor: 0xffdcaa, sunCol: 0xffe2a8, sunDir: [-.45, .3, 1], sunSize: 1.6, stars: 0, aurora: 0, clouds: 1, moon: 0,
-      fog: 0xc9b7a6, fogNear: 140, fogFar: 820, hemiSky: 0xffe6c8, hemiGround: 0x6a4a3a, hemiI: .75, dirCol: 0xffe0b0, dirI: 2.3, exposure: .72 },
+    { name: 'GOLDEN COAST', top: 0x2458a8, mid: 0x6aa2d8, hor: 0xffc890, sunCol: 0xffd898, sunDir: [-.55, .22, 1], sunSize: 1.6, stars: 0, aurora: 0, clouds: 1, moon: 0,
+      fog: 0x8fb0d4, fogNear: 220, fogFar: 1200, hemiSky: 0xffe6c8, hemiGround: 0x6a4a3a, hemiI: .7, dirCol: 0xffd8a0, dirI: 2.2, exposure: .66 },
     { name: 'RED CANYON', top: 0x10183d, mid: 0x6d3a78, hor: 0xffa565, sunCol: 0xffb36b, sunDir: [-.38, .07, 1], sunSize: 1.4, stars: .2, aurora: 0, clouds: 1, moon: 0,
       fog: 0x9a5a6e, fogNear: 110, fogFar: 760, hemiSky: 0xffc09a, hemiGround: 0x4a2430, hemiI: .55, dirCol: 0xffc48a, dirI: 2.0, exposure: .82 },
     { name: 'NEON SKYWALL', top: 0x030310, mid: 0x170a36, hor: 0xb02a78, sunCol: 0x000000, sunDir: [.3, .2, 1], sunSize: 1, stars: .45, aurora: 0, clouds: .45, moon: 1,
